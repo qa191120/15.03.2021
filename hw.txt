@@ -1,0 +1,38 @@
+
+a.
+Create the following classes using ArrayList<Integer>
+(1)
+class MyQueue
++ enqueue ( Integer ) : void -- will add an item as last
++ dequeue ( ) : Integer -- will return the 1st item and remove it from the list
++ clear ( ) : void -- will clear the list
++ count ( ) : int -- will return the number of items
+(2)
+class MyStack
++ push ( Integer ) : void -- will add an item as first
++ pop ( ) : Integer -- will return the last item and remove it from the list
++ peek ( ) : int -- will return the last item (without removing it)
++ clear ( ) : void -- will clear the list
++ count ( ) : int -- will return the number of items
+
+b. **etgar
+(1)
+create a class called Person:
+# String name 
+# LocalDateTime Birthdate
+# int age
+(2)
+create a class called Item:
+# Integer key
+# Person data
+(3)
+implement a map using ArrayList<Items>
+class MyMap
++ put ( Integer key, Person p ) : void -- will add an item with these values. if an item with these key exist it will overwrite it
++ get ( Integer key ) : Item -- will return the item which matches the parameter key
++ containsKey ( Integer key ) : boolean -- will return true if the key exists and false if not
++ getKeys ( ) : ArrayList<Integer> -- will return a list of all the keys
++ getValues ( ) : ArrayList<Person> -- will return a list of all the Person
++ clear ( ) : void -- will clear the list
++ count ( ) : int -- will return the number of items
+
